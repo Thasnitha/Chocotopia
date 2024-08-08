@@ -1,0 +1,285 @@
+*{
+    top: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-family: "Playwrite BE VLG", cursive;
+    color: #8d3b04;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin-right: 70px;
+}
+ul{
+    justify-content: space-between;
+}
+#links{
+    text-decoration: none;
+    color:#8d3b04;
+}
+#links:hover{
+    color: black;
+}
+#heading{
+margin-top: 70px;
+margin-left: 80px;
+}
+#head{
+    font-size: 100px;
+    font-family: "Pacifico", cursive;
+    color: #361715;
+   
+}
+#subhead{
+    font-size: 50px;
+    margin-left: 120px;
+    font-size: 30px;
+    color:#8d3b04;
+}
+#image{
+    margin-left: 900px;
+    margin-top: -390px;
+}
+.icons{
+    margin-top: 60px;
+    margin-left: 130px;
+    padding-left: 10px;
+}
+#catalog{
+    font-family: "Playwrite BE VLG", cursive;
+    color: #361715;
+
+}
+.cataloglist {
+    margin-left: 50px;
+    font-family: "Playwrite BE VLG", cursive;
+    color:#8d3b04;
+
+
+}
+#grid1{
+background-image: url(./images/cake\ 1.jpeg);
+height: 300px;
+width: 300px;
+background-size: cover;
+}
+#grid2{
+    background-image: url(./images/cake\ 3.jpeg);
+    background-size: cover;
+
+    height: 300px;
+    width: 300px;
+
+
+
+
+}
+#grid3{
+    background-image: url(./images/cake\ 5.jpeg);
+    background-size: cover;
+
+    height: 700px;
+    width: 400px;
+    margin-right: 240px;
+
+
+
+
+}
+#grid4{
+    background-image: url(./images/cake\ 9.jpeg);
+    background-size: cover;
+
+    height: 350px;
+    width: 300px;
+    margin-top: -350px;
+
+
+
+
+
+}
+#grid5{
+    background-image: url(./images/cake\ 4.jpeg);
+    background-size: cover;
+
+    height: 350px;
+    width: 300px;
+    margin-top: -350px;
+
+
+
+
+
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+
+    margin-top: 30px;
+    margin-left: 400px;
+
+
+
+
+}
+#adv{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+    color:#8d3b04;
+    font-family: "Playwrite BE VLG", cursive;
+
+
+
+}
+#img1{
+    border-radius: 50px;
+   
+}
+#quality{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+#orderimage{
+    margin-top: 100px;
+    height: 900px;
+    display: flex;
+}
+#order1{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#button1{
+    background-color: #D0A77B;
+     color: #ffffff;
+            padding: 12px 20px;
+             border: none;
+              border-radius: 10px; font-size: 16px; 
+            cursor: pointer; width: 100%;
+}
+#button1:hover{
+    background-color: #a00116;
+}
+
+#best{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+    color:#8d3b04;
+    font-family: "Playwrite BE VLG", cursive;
+
+
+
+}
+.topsell{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+#delivery{
+    margin-top: 200px;
+    font-size: 50px;
+    color:#8d3b04;
+    font-family: "Playwrite BE VLG", cursive;
+    margin-left: 100px;
+    line-height: 4.5;
+
+   
+}
+p{
+    margin-left:100px ;
+    padding: 20px;
+}
+#ic1{
+    margin-right:10px ;
+ }
+.bake{
+    /* display: flex;
+    border-radius: 10px;
+    align-items: center;
+margin-right: 290%;  */
+
+    
+}
+#img2{
+    border-radius: 30px;
+    
+ }
+#bakes{
+    margin-top: 300px;
+    font-size: 50px;
+    color:#8d3b04;
+    font-family: "Playwrite BE VLG", cursive;
+    align-items: center;
+    line-height: 5.5;
+    font-size: 50px;
+    margin-left: 10px; 
+
+}
+.way{
+    margin-left: 1000px;
+    
+}
+#footer{
+    background-color:#361715;
+    height: 500px;
+}
+#head1{
+    color: white;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+
+}
+#one{
+    display: inline-block;
+}
+#footer{
+    color: white;
+}
+#cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+}
+.cont1{
+    margin-left: 30%;
+}
+i{
+    padding: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: bisque;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D0A77B;
+    border-radius: 10px;
+}
